@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
 public class LionTest {
 
     @Mock
-    Feline feline;
+    Predator feline;
 
     @Test
     public void getKittensNoParamsReturnOne() throws Exception {

@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class LionManeTest {
     private final String sex;
     private final boolean expectedMane;
-    Feline feline = new Feline();
+    Predator feline = new Feline();
 
     public LionManeTest(String sex, boolean expectedMane) {
         this.sex = sex;
