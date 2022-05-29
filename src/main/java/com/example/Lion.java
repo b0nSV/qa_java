@@ -4,8 +4,8 @@ import java.util.List;
 
 public class Lion {
 
-    boolean hasMane;
-    private final Predator predator;
+    protected boolean hasMane;
+    protected final Predator predator;
 
     public Lion(String sex, Feline feline) throws Exception {
         if ("Самец".equals(sex)) {
